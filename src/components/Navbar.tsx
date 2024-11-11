@@ -10,7 +10,7 @@ import {
   SheetTrigger,
   SheetTitle,
 } from "@/components/ui/sheet";
-
+import RegisterDialog from "./RegisterDialog";
 export default function Navbar() {
   const navigation = [
     { name: "Home", href: "/" },
@@ -49,10 +49,8 @@ export default function Navbar() {
             </div>
 
             {/* Register Now Button (Desktop) */}
-            <div className="hidden md:block">
-              <Button className="bg-[#4CAF4F] text-white hover:bg-[#4CAF4F]/90">
-                Register Now →
-              </Button>
+            <div className="hidden md:block registerbutton">
+              <RegisterDialog/>
             </div>
           </div>
 
@@ -80,9 +78,7 @@ export default function Navbar() {
                     {item.name}
                   </Link>
                 ))}
-                <Button className="bg-[#4CAF4F] text-white hover:bg-[#4CAF4F]/90">
-                  Register Now →
-                </Button>
+                <div className="registerbutton"><RegisterDialog/></div>
               </div>
             </SheetContent>
           </Sheet>
