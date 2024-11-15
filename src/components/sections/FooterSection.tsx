@@ -29,14 +29,14 @@ const socialLinks = [
 
 export default function FooterSection() {
   return (
-    <footer className="w-full  text-white">
+    <footer className="w-full">
         <div className="text-center space-y-8 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tight max-w-3xl mx-auto text-[#263238]">
             Pellentesque suscipit fringilla libero eu.
           </h2>
           <ScheduleDemoDialog/>
         </div>
-        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 pt-12 border-t bg-[#263238] px-4 sm:px-[3vw]  md:px-[100.23px]">
+        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 pt-12 pb-6 border-t bg-[#263238]  text-white px-4 sm:px-[3vw]  md:px-[100.23px]">
           <div className="space-y-4">
             <Link href="#" className="flex items-center space-x-2">
               <Image src="/assets/logos/Nexcent_logo_white.png" alt="Nexcent Logo" width={132.95} height={20.65} />

@@ -34,7 +34,7 @@ export default function Navbar() {
             />
           </Link>
 
-          <div className="flex justify-center items-center gap-[22.27px] w-[650.48px]">
+          <div className="flex justify-end items-center gap-[22.27px] w-[650.48px]">
             {/* Desktop Navigation */}
             <div className="hidden md:flex md:items-center md:space-x-4 lg:space-x-6">
               {navigation.map((item) => (
@@ -62,7 +62,7 @@ export default function Navbar() {
                 size="icon"
                 className="md:hidden h-12 w-12 sm:h-10 sm:w-10"
               >
-                <Menu className="h-8 w-8 sm:h-6 sm:w-6" />
+                <Menu className="border-none outline-none" />
                 <span className="sr-only">Toggle navigation menu</span>
               </Button>
             </SheetTrigger>

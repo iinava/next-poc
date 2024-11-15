@@ -24,7 +24,7 @@ export default function CommunitySection() {
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-5">
       <div className="container mx-auto px-4 text-center" style={{ textShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)" }}>
         <h2 className=" text-3xl sm:text-5xl font-bold mb-2 text-[#4D4D4D]" >
           Manage your entire community <br /> in a single system

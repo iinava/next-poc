@@ -14,7 +14,7 @@ export default function AchievementsSection() {
         <div className="flex justify-around items-center flex-wrap gap-10">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-              Helping a local{" "}
+              Helping a local{" "} <br />
               <span className="text-[#22C55E]">business reinvent itself</span>
             </h2>
             <p className="text-gray-500 md:text-xl">
