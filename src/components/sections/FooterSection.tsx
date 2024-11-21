@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input"
 import { ArrowRight, Instagram, Twitter, Youtube } from 'lucide-react'
 import Image from "next/image"
 import Link from "next/link"
-import ScheduleDemoDialog from "../ScheduleDemoDialogue"
+import ScheduleDemoDialog from "../modals/ScheduleDemoDialogue"
 
 const companyLinks = [
   { href: "#", label: "About us" },

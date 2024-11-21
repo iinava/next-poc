@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import CommunityServicesModal from "../CommunityServicesDialog"
+import CommunityServicesModal from "../modals/CommunityServicesDialog"
 
 export default function UnlockSection() {
   return (

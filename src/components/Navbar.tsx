@@ -10,7 +10,7 @@ import {
   SheetTrigger,
   SheetTitle,
 } from "@/components/ui/sheet";
-import RegisterDialog from "./RegisterDialog";
+import RegisterDialog from "./modals/RegisterDialog";
 import logo from "../../public/assets/logos/Nexcent_logo.png"
 export default function Navbar() {
   const navigation = [
