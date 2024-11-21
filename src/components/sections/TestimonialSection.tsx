@@ -14,7 +14,7 @@ export default function TestimonialSection() {
 
   return (
     <section className="w-full py-12 md:py-24 px-4 sm:px-[3vw]  md:px-[100.23px] bg-gray-50">
-      <div className="container px-4 md:px-6">
+      <div className="container">
         <div className="grid gap-6 lg:grid-cols-[400px_1fr] items-start">
           <div>
             <Image
