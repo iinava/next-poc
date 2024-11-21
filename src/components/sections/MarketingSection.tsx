@@ -29,7 +29,7 @@ export default function MarketingSection() {
           are increasing their membership income and more.
         </p>
       </div>
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-12 px-2">
         {posts.map((post, index) => (
         <div
         key={index}
