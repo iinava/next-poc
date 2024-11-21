@@ -17,7 +17,7 @@ export default function HeroSection() {
             <div className="text-gray-500 mt-1 text-center lg:text-left">
                 Where to grow your business as a photographer: site or social media?
             </div>
-            <button className="bg-green-600 flex justify-center items-center p-6 px-12 text-white h-[34px] w-[85px] mt-6  hover:bg-green-700 mx-auto lg:mx-0">
+            <button className="bg-[#4CAF4F] flex justify-center items-center p-6 px-12 text-white h-[34px] w-[85px] mt-6  hover:bg-green-700 mx-auto lg:mx-0">
                 Register
             </button>
         </div>

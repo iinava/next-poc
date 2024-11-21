@@ -17,7 +17,7 @@ export default function ClientSection() {
       className="w-full px-4 sm:px-[3vw] md:px-[100.23px] flex justify-center items-center flex-col py-10"
       style={{ textShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)" }}
     >
-      <div className="container px-4 md:px-6">c
+      <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#4D4D4D]">
             Our Clients

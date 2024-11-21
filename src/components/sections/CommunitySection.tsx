@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Users, Building2, Users2 } from "lucide-react";
+import { Users, Building2, Users2 ,Hand } from "lucide-react";
 
 export default function CommunitySection() {
   const features = [
@@ -16,7 +16,7 @@ export default function CommunitySection() {
         "Our membership management software provides full automation of membership renewals and payments",
     },
     {
-      icon: Users2,
+      icon: Hand,
       title: "Clubs And Groups",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
@@ -38,7 +38,7 @@ export default function CommunitySection() {
               className="border-none shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:shadow-lg transition-shadow w-80 h-80"
             >
               <CardHeader>
-                <div className="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-green-100  rounded-tl-2xl rounded-br-2xl flex items-center justify-center ">
                   <feature.icon className="w-8 h-8 text-primary" />
                 </div>
                 <CardTitle className="text-xl">{feature.title}</CardTitle>

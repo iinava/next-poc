@@ -11,6 +11,7 @@ import {
   SheetTitle,
 } from "@/components/ui/sheet";
 import RegisterDialog from "./RegisterDialog";
+import logo from "../../public/assets/logos/Nexcent_logo.png"
 export default function Navbar() {
   const navigation = [
     { name: "Home", href: "/" },
@@ -26,11 +27,11 @@ export default function Navbar() {
         <div className="flex w-full items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/assets/logos/Nexcent_logo.png"
+              src={logo}
               alt="Nexcent Logo"
               width={107.54}
               height={16.71}
-              className="w-[140px] h-auto sm:w-[120px]"
+              className="w-[350px]   sm:w-[107.54px]"
             />
           </Link>
 
@@ -57,14 +58,12 @@ export default function Navbar() {
           {/* Mobile Navigation */}
           <Sheet>
             <SheetTrigger asChild>
-              <Button
-                variant="outline"
-                size="icon"
-                className="md:hidden h-12 w-12 sm:h-10 sm:w-10"
+              <div
+                className="md:hidden h-12 w-12 cursor-pointer pt-1 "
               >
                 <Menu className="border-none outline-none" />
                 <span className="sr-only">Toggle navigation menu</span>
-              </Button>
+              </div>
             </SheetTrigger>
             <SheetContent side="right">
               <SheetTitle className="text-lg font-semibold">Menu</SheetTitle>

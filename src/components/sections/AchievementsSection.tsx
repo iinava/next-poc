@@ -11,7 +11,7 @@ export default function AchievementsSection() {
   return (
     <section className="w-full  px-4   sm:px-[3vw] md:px-[100.23px] py-6 md:py-20 lg:py-20  flex justify-center bg-[#F5F7FA]">
       <div className="w-full">
-        <div className="flex justify-around items-center flex-wrap gap-16">
+        <div className="flex justify-between items-center flex-wrap gap-16  px-3">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
               Helping a local{" "} <br />

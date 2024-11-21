@@ -15,7 +15,7 @@ export default function ScheduleDemoDialog() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline" className=" bg-green-500 hover:bg-green-600 text-white hover:text-white text-lg font-semibold h-12">Schedule a Demo</Button>
+        <Button variant="outline" className=" bg-[#4CAF4F] hover:bg-green-600 text-white hover:text-white text-lg font-semibold h-12">Schedule a Demo</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[525px]">
         <DialogHeader className="space-y-4">
