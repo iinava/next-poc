@@ -8,7 +8,7 @@ export default function MarketingSection() {
       link: "#",
     },
     {
-      title: "What are your safeguarding responsibilities and how can you manage them?",
+      title: "What are your safeguarding responsibilities ?",
       imageUrl: "/assets/images/marketing2.png",
       link: "#",
     },
@@ -29,20 +29,33 @@ export default function MarketingSection() {
           are increasing their membership income and more.
         </p>
       </div>
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-12">
         {posts.map((post, index) => (
-          <div
-            key={index}
-            className="bg-white rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105"
+        <div
+        key={index}
+        className=" rounded-lg   pb-5 overflow-hidden transition-transform transform hover:scale-105"
+      >
+        <div className="relative">
+          <img
+            src={post.imageUrl}
+            alt={post.title}
+            className="h-56 w-full object-cover rounded-xl" 
+          />
+        </div>
+        <div className="p-10 -mt-8 mx-8 bg-[#F5F7FA] rounded-lg shadow-lg relative z-10 text-center">
+          <h3 className="text-base font-medium text-gray-900 leading-tight">
+            {post.title}
+          </h3>
+          <a
+            href={post.link}
+            className="inline-flex items-center mt-3 text-green-600 font-semibold"
           >
-            <img src={post.imageUrl} alt={post.title} className="h-48 w-full object-cover" />
-            <div className="p-6">
-              <h3 className="text-lg font-semibold">{post.title}</h3>
-              <a href={post.link} className="inline-flex items-center mt-4 text-green-600 font-medium">
-                Read more →
-              </a>
-            </div>
-          </div>
+            Read more →
+          </a>
+        </div>
+      </div>
+      
+       
         ))}
       </div>
     </section>
